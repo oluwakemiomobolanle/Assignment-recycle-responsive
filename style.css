@@ -107,7 +107,8 @@ letter-spacing: 0%;
   margin-top:77px ;
   margin-left: 57px;
   margin-right: 112px;
-  padding-bottom: 182px;
+  /* padding-bottom: 182px; */
+  object-fit: cover;
 }
 .second-main {
   display: flex;
@@ -356,6 +357,7 @@ width: 90px;
   padding: 16px 32px 16px 32px;
 }
 .main-secondchild  {
+  position: relative;
   height: 327px;
   width: 290px;
   margin-top:30px ;
@@ -363,11 +365,13 @@ width: 90px;
   margin-right: 10px
 }
 .main-secondchild img {
+  position: absolute;
   height: 327px;
   width: 290px;
   margin-top:0px ;
   margin-left: 0px;
-  margin-right: 0px
+  margin-right: 0px;
+  object-fit: cover;
 }
 .second-main {
   height: 966px;
