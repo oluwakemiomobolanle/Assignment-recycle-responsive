@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 html {
   font-size: 62.5%;
@@ -253,6 +253,29 @@ letter-spacing: 0%;
   letter-spacing: 0%;
   vertical-align: middle;
   margin-bottom: 15px;
+}
+.third-main {
+  height: 390px;
+  /* width: 1216px; */
+  padding-left: 112px;
+  padding-right: 112px;
+  margin-top: 225px;
+  gap: 49px;
+}
+.third-main .unlock {
+  height: 389px;
+  width: 600px;
+}
+.third-main .man {
+  height: 390px;
+  width: 567px;
+}
+.fourth-main {
+  height: 1139px;
+  margin-top: 225px;
+  padding-left: 112px;
+  padding-right: 112px;
+  gap: 40px;
 }
 .hambuger {
   height: 30px;
